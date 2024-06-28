@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+        
+}
+
+.area{
+    max-width: 60vh;
+    max-height: 60vh;
+    width: 60vh;
+    height: 60vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.person__img{   
+    width: 5vh;
+    height: 5vh;
+    left: 0;
+    background-color: red;
+    position: relative;
+    animation: person__img-animation 2s infinite;
+}
+
